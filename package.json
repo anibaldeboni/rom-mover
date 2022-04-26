@@ -1,0 +1,32 @@
+{
+  "name": "rom-mover",
+  "version": "1.0.0",
+  "description": "Move zipped rom files based on rom extension",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix",
+    "dev": "ts-node --transpileOnly --swc ./src/app.ts"
+  },
+  "author": "Aníbal Deboni Neto",
+  "license": "GPLv2",
+  "private": false,
+  "devDependencies": {
+    "@swc/core": "^1.2.172",
+    "@types/adm-zip": "^0.5.0",
+    "@types/glob": "^7.2.0",
+    "@types/node": "^17.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "glob": "^8.0.1"
+  }
+}
